@@ -1,0 +1,10 @@
+CopyToTape2-24417056,2,50,200
+0,1
+q0,q_accept,q_reject
+q0
+q_accept,q_reject
+0,1
+0,1
+q0,0,*,q0,*,0,R,R
+q0,1,*,q0,*,1,R,R
+q0,_,*,q_accept,_,*,S,S

@@ -1,0 +1,68 @@
+1:q0,0,q0,0,R
+2:q0,1,q1,1,R
+3:q0,_,q_accept,_,S
+4:q1,0,q1,0,R
+5:q1,1,q0,1,R
+6:q1,_,q_reject,_,S
+Tape file: tape-EvenOnes-24417056.txt
+Tape 1: 0
+1,1,0,q0,0,q0,0,R
+2,3,1,q0,_,q_accept,_,S
+Accepted
+Tape 1: 0
+Tape 1: 1
+1,2,0,q0,1,q1,1,R
+2,6,1,q1,_,q_reject,_,S
+Rejected
+Tape 1: 1
+Tape 1: 10
+1,2,0,q0,1,q1,1,R
+2,4,1,q1,0,q1,0,R
+3,6,2,q1,_,q_reject,_,S
+Rejected
+Tape 1: 10
+Tape 1: 11
+1,2,0,q0,1,q1,1,R
+2,5,1,q1,1,q0,1,R
+3,3,2,q0,_,q_accept,_,S
+Accepted
+Tape 1: 11
+Tape 1: 101
+1,2,0,q0,1,q1,1,R
+2,4,1,q1,0,q1,0,R
+3,5,2,q1,1,q0,1,R
+4,3,3,q0,_,q_accept,_,S
+Accepted
+Tape 1: 101
+Tape 1: 1010
+1,2,0,q0,1,q1,1,R
+2,4,1,q1,0,q1,0,R
+3,5,2,q1,1,q0,1,R
+4,1,3,q0,0,q0,0,R
+5,3,4,q0,_,q_accept,_,S
+Accepted
+Tape 1: 1010
+Tape 1: 1111
+1,2,0,q0,1,q1,1,R
+2,5,1,q1,1,q0,1,R
+3,2,2,q0,1,q1,1,R
+4,5,3,q1,1,q0,1,R
+5,3,4,q0,_,q_accept,_,S
+Accepted
+Tape 1: 1111
+Tape 1: 10101
+1,2,0,q0,1,q1,1,R
+2,4,1,q1,0,q1,0,R
+3,5,2,q1,1,q0,1,R
+4,1,3,q0,0,q0,0,R
+5,2,4,q0,1,q1,1,R
+6,6,5,q1,_,q_reject,_,S
+Rejected
+Tape 1: 10101
+Tape 1: 000
+1,1,0,q0,0,q0,0,R
+2,1,1,q0,0,q0,0,R
+3,1,2,q0,0,q0,0,R
+4,3,3,q0,_,q_accept,_,S
+Accepted
+Tape 1: 000
